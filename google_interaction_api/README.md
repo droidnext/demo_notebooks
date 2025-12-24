@@ -52,6 +52,20 @@ The Interactions API simplifies state management, tool orchestration, and long-r
 - **Simplified API** - One interface for models and agents
 - **Background execution** - Handle long-running tasks asynchronously
 
+## Limitations
+
+**As of:** January 2025  
+**Source:** [Official API Documentation](https://ai.google.dev/gemini-api/docs/interactions)
+
+- **Beta status**: The Interactions API is in beta/preview. Features and schemas may change.
+- **Unsupported features** (coming soon):
+  - Grounding with Google Maps
+  - Computer Use
+- **Output ordering**: Content ordering for built-in tools may sometimes be incorrect
+- **Tool combinations**: Combining MCP, Function Call, and Built-in tools is not yet supported
+
+> **Note:** Limitations are subject to change as the API evolves. Please refer to the [official documentation](https://ai.google.dev/gemini-api/docs/interactions) for the most up-to-date information.
+
 ## Documentation
 
 - [Official API Documentation](https://ai.google.dev/gemini-api/docs/interactions)
