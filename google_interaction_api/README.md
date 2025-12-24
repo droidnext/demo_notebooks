@@ -1,6 +1,7 @@
 # Google Gemini Interactions API Demo
 
 A comprehensive Jupyter notebook demonstrating the key features of Google's Gemini Interactions API - a unified interface for interacting with Gemini models and agents.
+https://ai.google.dev/gemini-api/docs/interactions
 
 ## Overview
 
@@ -8,11 +9,14 @@ The Interactions API simplifies state management, tool orchestration, and long-r
 
 ## Features Demonstrated
 
+For full features read at https://ai.google.dev/gemini-api/docs/interactions
+
 - ✅ **Basic Interactions** - Simple text prompts
 - ✅ **Stateful Conversations** - Multi-turn conversations with server-side state management
 - ✅ **Retrieving Past Interactions** - Access previous conversation turns
 - ✅ **Stateless Conversations** - Client-side conversation history management
 - ✅ **Background Execution** - Asynchronous long-running tasks
+- ✅ **MCP Integration** - Model Context Protocol server integration for external tools
 - ✅ **Best Practices** - Storage, retention, and optimization tips
 
 ## Setup
@@ -54,7 +58,7 @@ The Interactions API simplifies state management, tool orchestration, and long-r
 
 ## Limitations
 
-**As of:** January 2025  
+**As of:** December 2025  
 **Source:** [Official API Documentation](https://ai.google.dev/gemini-api/docs/interactions)
 
 - **Beta status**: The Interactions API is in beta/preview. Features and schemas may change.
